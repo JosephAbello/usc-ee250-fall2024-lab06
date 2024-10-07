@@ -29,10 +29,10 @@ while True:
   #GPIO.output(pin, GPIO.HIGH)
   #GPIO.output(pin, GPIO.LOW)
   for i in range(5):
-  GPIO.output(LED_PIN, GPIO.HIGH)
-  time.sleep(0.5)
-  GPIO.output(LED_PIN, GPIO.LOW)
-  time.sleep(0.5)
+    GPIO.output(LED_PIN, GPIO.HIGH)
+    time.sleep(0.5)
+    GPIO.output(LED_PIN, GPIO.LOW)
+    time.sleep(0.5)
 
   # get reading from adc 
   # mcp.read_adc(adc_channel)
