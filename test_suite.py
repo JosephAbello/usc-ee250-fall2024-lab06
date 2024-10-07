@@ -11,11 +11,11 @@ GPIO.setup(chan_list, GPIO.OUT)
 # Hardware SPI configuration:
 SPI_PORT   = 0
 SPI_DEVICE = 0
-LED_PIN = 30
+LED_PIN = 11
 mcp = Adafruit_MCP3008.MCP3008(spi=SPI.SpiDev(SPI_PORT, SPI_DEVICE))
 
-# Hardware SPI Setup
-GPIO.setup(LED_PIN, GPIO.OUT)
+# # Hardware SPI Setup
+# GPIO.setup(LED_PIN, GPIO.OUT)
 
 # by taking readings and printing them out, find
 # appropriate threshold levels and set them 
